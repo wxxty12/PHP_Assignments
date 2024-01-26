@@ -12,7 +12,7 @@
     <?php
 
     // use backslash to escape special characters
-    echo "Hello world! My name is \"Stella\"";
+    echo "Hello world! My name is \"Xingxing\"";
     ?>
     <h3>3.2 Create a PHP variable named $title and assign it 
         the value "PHP is interesting." Then, use this 
