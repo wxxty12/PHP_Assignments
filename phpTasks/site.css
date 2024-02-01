@@ -109,6 +109,7 @@ main a:visited{
 
 }
 
+
 nav li:hover,
 nav li:active {
     color: #A08232;
@@ -172,6 +173,8 @@ main {
     border-top: 1px solid #B49646;
     border-bottom: 1px solid #B49646;
 }
+
+
 
 
 

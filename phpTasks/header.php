@@ -41,13 +41,31 @@
                     <p class="logo-part-1">The pure taste of</p>
                     <p class="logo-part-2">Midnight Sun Bistro</p>
                 </a>
-                <nav class="navbar navbar-expand">
-                    <ul class="navbar-nav d-flex justify-content-between w-100">
-                        <li class="nav-item fs-4"><a href="hello.php" class="nav-link">Home</a></li>
-                        <li class="nav-item fs-4"><a href="ex1.php" class="nav-link">ex1</a></li>
-                        <li class="nav-item fs-4"><a href="ex2.php" class="nav-link">ex2</a></li>
-                        <li class="nav-item fs-4"><a href="ex3.php" class="nav-link">ex3</a></li>
-                    </ul>
+
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-theme="dark" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" style="color: #B49646;">
+                            <span class="navbar-toggler-icon" ></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <nav class="navbar navbar-expand w-100">
+                            <ul class="navbar-nav d-flex justify-content-between w-100">
+                                <li class="nav-item fs-4"><a href="hello.php" class="nav-link">Home</a></li>
+                                <li class="nav-item fs-4"><a href="ex1.php" class="nav-link">ex1</a></li>
+                                <li class="nav-item fs-4"><a href="ex2.php" class="nav-link">ex2</a></li>
+                                <li class="nav-item fs-4"><a href="ex3.php" class="nav-link">ex3</a></li>
+                                <li class="nav-item fs-4"><a href="ex4.php" class="nav-link">ex4</a></li>
+                                <li class="nav-item fs-4"><a href="#" class="nav-link">ex5</a></li>
+                                <li class="nav-item fs-4"><a href="#" class="nav-link">ex6</a></li>
+                            </ul>
+                        </nav>
+                        </div>
+                    </div>
                 </nav>
             </div>
+            
+
         </header>
