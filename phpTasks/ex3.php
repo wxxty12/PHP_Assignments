@@ -29,7 +29,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="color" class="form-label">Select Color:</label>
-                    <input type="color" class="form-control form-control-color" id="color" name="color" value="#B49646">
+                    <input type="color" class="form-control" id="color" name="color" value="#B49646">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
@@ -43,7 +43,7 @@
             $g3 = 5;
             ?>
 
-            <table class="table w-50 text-center"> 
+            <table class="table mt-4"> 
                 <thead>
                     <tr><th>S.n.</th> <th>Name</th> <th>Grade</th></tr>
                 </thead>
