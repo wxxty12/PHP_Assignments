@@ -29,7 +29,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="color" class="form-label">Select Color:</label>
-                    <input type="color" class="form-control" id="color" name="color" value="#B49646">
+                    <input type="color" class="form-control form-control-color" id="color" name="color" value="#B49646">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
@@ -43,7 +43,7 @@
             $g3 = 5;
             ?>
 
-            <table class="table mt-4"> 
+            <table class="table w-50 text-center"> 
                 <thead>
                     <tr><th>S.n.</th> <th>Name</th> <th>Grade</th></tr>
                 </thead>
@@ -97,21 +97,9 @@
 
         <h2>Browser Detection</h2>
 
-            <?php
-            function get_browser_name($user_agent)
-            {
-                if (strpos($user_agent, 'Opera') || strpos($user_agent, 'OPR/')) return 'Opera';
-                elseif (strpos($user_agent, 'Edge')) return 'Edge';
-                elseif (strpos($user_agent, 'Chrome')) return 'Chrome';
-                elseif (strpos($user_agent, 'Safari')) return 'Safari';
-                elseif (strpos($user_agent, 'Firefox')) return 'Firefox';
-                elseif (strpos($user_agent, 'MSIE') || strpos($user_agent, 'Trident/7')) return 'Internet Explorer';
-                
-                return 'Other';
-            }
-
-            echo get_browser_name($_SERVER['HTTP_USER_AGENT']);
-            ?>
+        <?php
+            echo "Answer: " . $_SERVER['HTTP_USER_AGENT'] . ".";
+        ?>
 
         <h2>File Modification Time</h2>
 
