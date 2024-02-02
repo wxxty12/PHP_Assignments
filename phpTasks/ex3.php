@@ -98,7 +98,7 @@
         <h2>Browser Detection</h2>
 
         <?php
-            echo "Answer: " . $_SERVER['HTTP_USER_AGENT'] . ".";
+            echo "Browser: " . $_SERVER['HTTP_USER_AGENT'] . ".";
         ?>
 
         <h2>File Modification Time</h2>
