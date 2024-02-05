@@ -58,8 +58,8 @@
                                 <li class="nav-item fs-4"><a href="ex2.php" class="nav-link">ex2</a></li>
                                 <li class="nav-item fs-4"><a href="ex3.php" class="nav-link">ex3</a></li>
                                 <li class="nav-item fs-4"><a href="ex4.php" class="nav-link">ex4</a></li>
-                                <li class="nav-item fs-4"><a href="#" class="nav-link">ex5</a></li>
-                                <li class="nav-item fs-4"><a href="#" class="nav-link">ex6</a></li>
+                                <li class="nav-item fs-4"><a href="../README.md" class="nav-link">ex5</a></li>
+                                <li class="nav-item fs-4"><a href="ex7.php" class="nav-link">ex7</a></li>
                             </ul>
                         </nav>
                         </div>
