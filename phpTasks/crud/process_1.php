@@ -1,4 +1,13 @@
 <?php
+
+$title = "Add Info";
+$md = "result of adding one row";
+
+include 'header.php'; 
+?>
+
+<div class="container">
+<?php
 // Check if the 'submit' button in the form was clicked
 if (isset($_POST['submit'])) {
     // Retrieve data from the form and store it in variables
@@ -26,4 +35,14 @@ if (isset($_POST['submit'])) {
     // Close the database connection
     $conn->close();
 }
+
 ?>
+</div>
+
+<div>
+  <a href="update.php" class="btn btn-primary">Back to Info Table</a>
+  <a href="ex7.php" class="btn btn-primary">Continue Adding</a>
+
+</div>
+
+<?php include 'footer.php';?>

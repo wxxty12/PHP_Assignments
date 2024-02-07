@@ -1,4 +1,9 @@
-
+<?php 
+    $title = "Exercise 7";
+    $md = "page of php ex7";
+    include 'db.php'; 
+    include 'header.php'; 
+?>
 
 <h2>Input Your Information Below:</h2>
 <form name="form1" method="post" action="process_1.php">
@@ -34,3 +39,6 @@
     </div>
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
+
+
+<?php include 'footer.php'; ?>

@@ -1,12 +1,12 @@
 <?php 
     $title = "Exercise 7";
     $md = "page of php ex7";
-
+    // include 'db.php'; 
     include 'header.php'; 
 ?>
 
-<h2>Input Your Information Below:</h2>
-<form name="form1" method="post" action="process_1.php">
+<h2>CRUD Tasks</h2>
+<!-- <form name="form1" method="post" action="process_1.php">
     <div class="form-group">
         <div class="row">
             <div class="col">
@@ -38,7 +38,13 @@
         </div>
     </div>
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-</form>
+</form> -->
 <div class="container ">
-    <img src="images/ex7_create.jpg" alt="create records in studentsinfo table" width="80%">
+    <a href="crud/create.php" class="btn btn-primary">Add new record</a>
+    <a href="crud/update.php" class="btn btn-primary">Read records</a>
 </div>
+<div class="container ">
+    <img src="layout/images/ex7_create.jpg" alt="create records in studentsinfo table" width="80%">
+</div>
+
+<?php include 'footer.php'; ?>
